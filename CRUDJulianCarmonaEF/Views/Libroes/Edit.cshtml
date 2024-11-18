@@ -1,0 +1,73 @@
+﻿@model CRUDJulianCarmonaEF.Models.Libro
+
+@{
+    ViewData["Title"] = "Edit";
+}
+@* Importación de estilo *@
+@await Html.PartialAsync("_Styles")
+
+
+@* Formulario de edición *@
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="card-title mb-0">Editar libro</h1>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Edit">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Isbn" class="form-label">ISBN</label>
+                            <input asp-for="Isbn" class="form-control" />
+                            <span asp-validation-for="Isbn" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Titulo" class="form-label">Título</label>
+                            <input asp-for="Titulo" class="form-control" />
+                            <span asp-validation-for="Titulo" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Descripcion" class="form-label">Descripción</label>
+                            <textarea asp-for="Descripcion" class="form-control" rows="3"></textarea>
+                            <span asp-validation-for="Descripcion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NombreAutor" class="form-label">Autor</label>
+                            <input asp-for="NombreAutor" class="form-control" />
+                            <span asp-validation-for="NombreAutor" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Publicacion" class="form-label">Publicación</label>
+                            <input asp-for="Publicacion" class="form-control" />
+                            <span asp-validation-for="Publicacion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="FechaRegistro" class="form-label">Fecha de registro</label>
+                            <input asp-for="FechaRegistro" class="form-control" />
+                            <span asp-validation-for="FechaRegistro" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="CodigoCategoria" class="form-label">Categoría</label>
+                            <select asp-for="CodigoCategoria" class="form-control" asp-items="ViewBag.CodigoCategoria"></select>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="NitEditorial" class="form-label">Editorial</label>
+                            <select asp-for="NitEditorial" class="form-control" asp-items="ViewBag.NitEditorial"></select>
+                        </div>
+
+                        <div class="form-group text-end">
+                            <button type="submit" class="btn btn-primary">Editar</button>
+                            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

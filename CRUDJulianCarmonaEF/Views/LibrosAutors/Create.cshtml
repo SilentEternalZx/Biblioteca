@@ -1,0 +1,52 @@
+﻿@model CRUDJulianCarmonaEF.Models.LibrosAutor
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@* Importación de estilo *@
+@await Html.PartialAsync("_Styles")
+
+
+
+@* Formulario para crear registros *@
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="card-title mb-0">Crear libros-autor</h1>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group">
+                            <label asp-for="IdAutor" class="control-label"></label>
+                            <select asp-for="IdAutor" class="form-control" asp-items="ViewBag.IdAutor"></select>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Isbn" class="control-label"></label>
+                            <select asp-for="Isbn" class="form-control" asp-items="ViewBag.Isbn"></select>
+                        </div>
+                 
+                   
+                       
+
+                        <div class="form-group text-end">
+                            <button type="submit" class="btn btn-primary">Crear</button>
+                            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

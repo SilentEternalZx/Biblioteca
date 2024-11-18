@@ -1,0 +1,132 @@
+﻿@model CRUDJulianCarmonaEF.Models.Libro
+@{
+    ViewData["Title"] = "Delete";
+}
+@* Importación de estilo *@
+@await Html.PartialAsync("Eliminar")
+
+
+@* Vista de eliminación de registros *@
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-sm">
+                <div class="card-header bg-danger text-white text-center py-3">
+                    <h4 class="mb-0">¿Está seguro que desea eliminar este libro?</h4>
+                </div>
+                <div class="card-body p-4">
+                    <div class="modal-details">
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.Titulo)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.Titulo)
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.Descripcion)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.Descripcion)
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.NombreAutor)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.NombreAutor)
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.Publicacion)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.Publicacion)
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.FechaRegistro)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.FechaRegistro)
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.CodigoCategoriaNavigation)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.CodigoCategoriaNavigation.CodigoCategoria)
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <div class="col-md-4 text-md-end fw-bold">
+                                @Html.DisplayNameFor(model => model.NitEditorialNavigation)
+                            </div>
+                            <div class="col-md-8">
+                                @Html.DisplayFor(model => model.NitEditorialNavigation.Nit)
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-center mt-4">
+                        <form asp-action="Delete" class="d-inline">
+                            <input type="hidden" asp-for="Isbn" />
+                            <button type="submit" class="btn btn-danger me-2">
+                                <i class="fas fa-trash-alt me-2"></i>Eliminar
+                            </button>
+                            <a asp-action="Index" class="btn btn-secondary">
+                                <i class="fas fa-arrow-left me-2"></i>Volver
+                            </a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal de Error -->
+<div class="modal fade" id="errorModal" tabindex="-1" aria-labelledby="errorModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header bg-danger text-white">
+                <h5 class="modal-title" id="errorModalLabel">Error al Eliminar</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center py-4">
+                <i class="fas fa-exclamation-circle text-danger mb-4" style="font-size: 3rem;"></i>
+                <p class="mb-0">@TempData["ErrorMessage"]</p>
+            </div>
+            <div class="modal-footer justify-content-center border-0">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aceptar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Mostrar el modal si hay un mensaje de error
+        document.addEventListener('DOMContentLoaded', function() {
+        @if (TempData["ErrorMessage"] != null)
+        {
+            <text>
+                    var errorModal = new bootstrap.Modal(document.getElementById('errorModal'));
+                    errorModal.show();
+            </text>
+        }
+        });
+    </script>
+}

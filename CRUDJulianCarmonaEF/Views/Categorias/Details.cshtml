@@ -1,0 +1,54 @@
+﻿@model CRUDJulianCarmonaEF.Models.Categoria
+
+@{
+    ViewData["Title"] = "Details";
+}
+@* Importación de estilo *@
+@await Html.PartialAsync("Detalle")
+
+
+
+@* Cuadro que muestra el detalle de la tabla
+ *@
+<div class="container book-details">
+    <div class="book-header">
+        <h1 class="book-title">Detalle categorías</h1>
+
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="info-group">
+                <div class="info-label">Código categoría</div>
+                <div class="info-value">@Model.CodigoCategoria</div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="info-group">
+                        <div class="info-label">Nombre</div>
+                        <div class="info-value">@Model.Nombre</div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="book-cover" style="background-color: #f8f9fa; height: 300px; border-radius: 10px; display: flex; align-items: center; justify-content: center;">
+                <i class="fas fa-book fa-4x text-muted"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="action-buttons">
+        <a asp-action="Edit" asp-route-id="@Model?.CodigoCategoria" class="btn-custom btn-edit">
+            <i class="fas fa-edit me-2"></i>Editar
+        </a>
+        <a asp-action="Index" class="btn-custom btn-back">
+            <i class="fas fa-arrow-left me-2"></i>Volver
+        </a>
+    </div>
+</div>

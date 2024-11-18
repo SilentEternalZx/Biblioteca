@@ -1,0 +1,134 @@
+﻿@* Estilo para la vista principal de cada tabla
+ *@
+
+
+<style>
+    body {
+        background-color: #5D0E41;
+        
+        font-family: "Red Hat Text", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: italic;
+    }
+
+
+
+    .container-fluid {
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        text-align: center;
+        
+    }
+
+    .content-wrapper {
+        width: 80%;
+        border: 2px solid black;
+        border-radius:10px;
+    }
+
+    .table-container {
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 20px;
+    }
+
+    .table {
+        width: 100% !important;
+        border-collapse: separate;
+        border-spacing: 0;
+    }
+
+        .table th {
+            background-color: #f8f9fa;
+            padding: 12px;
+            font-weight: 600;
+        }
+
+        .table td {
+            padding: 12px;
+            border-bottom: 1px solid #dee2e6;
+        }
+
+    .action-buttons {
+        display: flex;
+        gap: 8px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+        border-radius: 6px;
+        border: 2px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+    .btn-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .search-container {
+        margin-bottom: 20px;
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .search-input {
+        padding: 8px 12px;
+        border: 2px solid black;
+        border-radius: 6px;
+        width: 300px;
+    }
+
+    /* Estilos para los botones de exportación */
+
+
+
+    .dt-button {
+        padding: 8px 16px;
+        border-radius: 6px;
+        border: 2px solid black;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin-right: 8px;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .botonCopiar {
+        background-color: #E6277C;
+    }
+
+    .botonCsv {
+        background-color: #4a90e2;
+    }
+
+    .botonExcel {
+        background-color: #2ecc71;
+    }
+
+    .botonPdf {
+        background-color: #e74c3c;
+    }
+
+    .botonPrint {
+        background-color: #ffa05a;
+    }
+
+    .botonColvis {
+        background-color: darkviolet;
+    }
+</style>

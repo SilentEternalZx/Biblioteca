@@ -1,0 +1,67 @@
+﻿@model CRUDJulianCarmonaEF.Models.Editoriale
+@{
+    ViewData["Title"] = "Create";
+}
+@* Importación de estilo *@
+@await Html.PartialAsync("_Styles")
+
+
+@* Formulario para crear registros *@
+
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="card-title mb-0">Crear editoriales</h1>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="Nit" class="form-label">Nit</label>
+                            <input asp-for="Nit" class="form-control" />
+                            <span asp-validation-for="Nit" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Nombres" class="form-label">Nombre</label>
+                            <input asp-for="Nombres" class="form-control" />
+                            <span asp-validation-for="Nombres" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Telefono" class="form-label">Telefono</label>
+                            <input asp-for="Telefono" class="form-control" />
+                            <span asp-validation-for="Telefono" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Direccion" class="form-label">Dirección</label>
+                            <input asp-for="Direccion" class="form-control" />
+                            <span asp-validation-for="Direccion" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Email" class="form-label">E-Mail</label>
+                            <input asp-for="Email" class="form-control" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label asp-for="Sitioweb" class="form-label">Sitio web</label>
+                            <input asp-for="Sitioweb" class="form-control" />
+                            <span asp-validation-for="Sitioweb" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-end">
+                            <button type="submit" class="btn btn-primary">Crear</button>
+                            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,56 @@
+﻿@model CRUDJulianCarmonaEF.Models.Autor
+@{
+    ViewData["Title"] = "Create";
+}
+
+@* Importación de estilo *@
+@await Html.PartialAsync("_Styles")
+
+
+@* Formulario para crear registros *@
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <div class="card-header bg-primary text-white">
+                    <h1 class="card-title mb-0">Crear autor</h1>
+                </div>
+                <div class="card-body">
+                    <form asp-action="Create">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                        <div class="form-group">
+                            <label asp-for="IdAutor" class="form-label">Id autor</label>
+                            <input asp-for="IdAutor" class="form-control" />
+                            <span asp-validation-for="IdAutor" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Nombre" class="form-label">Nombre</label>
+                            <input asp-for="Nombre" class="form-control" />
+                            <span asp-validation-for="Nombre" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Apellido" class="form-label">Apellido</label>
+                            <input asp-for="Apellido" class="form-control" />
+                            <span asp-validation-for="Apellido" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Nacionalidad" class="form-label">Nacionalidad</label>
+                            <input asp-for="Nacionalidad" class="form-control" />
+                            <span asp-validation-for="Nacionalidad" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group text-end">
+                            <button type="submit" class="btn btn-primary">Crear</button>
+                            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

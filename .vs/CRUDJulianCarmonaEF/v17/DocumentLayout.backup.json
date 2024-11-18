@@ -1,0 +1,801 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\controllers\\librosautorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\controllers\\librosautorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\controllers\\libroescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\controllers\\libroescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\controllers\\editorialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\controllers\\editorialescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\controllers\\categoriascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\controllers\\autorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\controllers\\autorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\models\\librosautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\models\\librosautor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\models\\libro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\models\\editoriale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\models\\editoriale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\models\\categoria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\models\\autor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\autors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\autors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\categorias\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\autors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\autors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\categorias\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\autors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\autors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\categorias\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\autors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\autors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\categorias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\categorias\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\autors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\autors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\categorias\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\librosautors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\librosautors\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\editoriales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\editoriales\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\editoriales\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\editoriales\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\editoriales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\editoriales\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\editoriales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\editoriales\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\editoriales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\editoriales\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\libroes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\libroes\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\libroes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\libroes\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\libroes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\libroes\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\libroes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\libroes\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\libroes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\libroes\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\librosautors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\librosautors\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\librosautors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\librosautors\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\librosautors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\librosautors\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\librosautors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\librosautors\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\shared\\_styles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\shared\\_styles.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\shared\\indexstyle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\shared\\indexstyle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\shared\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\shared\\detalle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\shared\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\shared\\eliminar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|c:\\users\\julia\\onedrive\\documents\\programaci\u00F3n\\pr\u00E1cticas_c#\\crudjuliancarmonaef\\crudjuliancarmonaef\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15CB24F0-3332-41FE-8736-B45C73AFBECA}|CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF.csproj|solutionrelative:crudjuliancarmonaef\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LibrosAutorsController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\LibrosAutorsController.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Controllers\\LibrosAutorsController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\LibrosAutorsController.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Controllers\\LibrosAutorsController.cs*",
+              "ViewState": "AgIAAL0AAAAAAAAAAAAgwNAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:40:00.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LibroesController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\LibroesController.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Controllers\\LibroesController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\LibroesController.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Controllers\\LibroesController.cs*",
+              "ViewState": "AgIAAL4AAAAAAAAAAAAYwNIAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:39:49.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AutorsController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\AutorsController.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Controllers\\AutorsController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\AutorsController.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Controllers\\AutorsController.cs*",
+              "ViewState": "AgIAANMAAAAAAAAAAADwv+wAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:38:48.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CategoriasController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\CategoriasController.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Controllers\\CategoriasController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\CategoriasController.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Controllers\\CategoriasController.cs*",
+              "ViewState": "AgIAAM8AAAAAAAAAAAAkwNsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:39:41.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EditorialesController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\EditorialesController.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Controllers\\EditorialesController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\EditorialesController.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Controllers\\EditorialesController.cs*",
+              "ViewState": "AgIAAMMAAAAAAAAAAAAYwN0AAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:39:44.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:39:48.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LibrosAutor.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\LibrosAutor.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Models\\LibrosAutor.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\LibrosAutor.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Models\\LibrosAutor.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:38:37.386Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Libro.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Libro.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Models\\Libro.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Libro.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Models\\Libro.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:38:23.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Editoriale.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Editoriale.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Models\\Editoriale.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Editoriale.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Models\\Editoriale.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:38:16.06Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Categoria.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Categoria.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Models\\Categoria.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Categoria.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Models\\Categoria.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:38:08.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Autor.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Autor.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Models\\Autor.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Models\\Autor.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Models\\Autor.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:37:53.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Autors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Create.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Autors\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:37:43.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Autors\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Delete.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Autors\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:37:31.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Autors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Details.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Autors\\Details.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:37:17.797Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Categorias\\Details.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Details.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Categorias\\Details.cshtml*",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:35:39.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Categorias\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Delete.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Categorias\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:35:53.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Categorias\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Create.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Categorias\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:36:12.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Autors\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Edit.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Autors\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:37:05.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Categorias\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Edit.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Categorias\\Edit.cshtml*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:35:23.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Autors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Autors\\Index.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Autors\\Index.cshtml*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEYAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:36:28.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Categorias\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Categorias\\Index.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Categorias\\Index.cshtml*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:34:41.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Index.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:24:18.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Create.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Create.cshtml*",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:34:19.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Delete.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:34:00.96Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Details.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Details.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Details.cshtml*",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:33:40.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Edit.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Edit.cshtml*",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:33:14.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Editoriales\\Index.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Editoriales\\Index.cshtml*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:32:33.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Libroes\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Create.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Libroes\\Create.cshtml*",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:31:48.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Libroes\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Delete.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Libroes\\Delete.cshtml*",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:31:27.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Libroes\\Details.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Details.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Libroes\\Details.cshtml*",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:30:56.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Libroes\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Edit.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Libroes\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:30:38.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Libroes\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Libroes\\Index.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Libroes\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:29:45.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Home\\Index.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Home\\Index.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T22:41:08.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Create.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Create.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Create.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Create.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:29:06.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Delete.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Delete.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Delete.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:27:40.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Details.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Details.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Details.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Details.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:26:28.606Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Edit.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Edit.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\LibrosAutors\\Edit.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:25:38.249Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\_Layout.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Shared\\_Layout.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:23:09.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "_Styles.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\_Styles.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Shared\\_Styles.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\_Styles.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Shared\\_Styles.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:22:27.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Detalle.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\Detalle.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Shared\\Detalle.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\Detalle.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Shared\\Detalle.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:22:00.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Eliminar.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\Eliminar.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Shared\\Eliminar.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\Eliminar.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Shared\\Eliminar.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:21:28.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T01:20:48.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Program.cs",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Program.cs",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Program.cs*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T01:20:06.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IndexStyle.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\IndexStyle.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Shared\\IndexStyle.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Shared\\IndexStyle.cshtml*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Shared\\IndexStyle.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T22:53:22.885Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\appsettings.json",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\appsettings.json",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\appsettings.json*",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\appsettings.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-18T01:18:57.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "CRUDJulianCarmonaEF\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\julia\\OneDrive\\Documents\\Programaci\u00F3n\\Pr\u00E1cticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "CRUDJulianCarmonaEF\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-17T22:48:33.157Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
