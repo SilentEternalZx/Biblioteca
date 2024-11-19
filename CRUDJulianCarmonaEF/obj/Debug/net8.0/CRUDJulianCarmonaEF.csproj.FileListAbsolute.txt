@@ -260,3 +260,4 @@ C:\Users\julia\OneDrive\Documents\Programación\Prácticas_C#\CRUDJulianCarmonaE
 C:\Users\julia\OneDrive\Documents\Programación\Prácticas_C#\CRUDJulianCarmonaEF\CRUDJulianCarmonaEF\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\julia\OneDrive\Documents\Programación\Prácticas_C#\CRUDJulianCarmonaEF\CRUDJulianCarmonaEF\obj\Debug\net8.0\staticwebassets\msbuild.CRUDJulianCarmonaEF.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
 C:\Users\julia\OneDrive\Documents\Programación\Prácticas_C#\CRUDJulianCarmonaEF\CRUDJulianCarmonaEF\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\julia\OneDrive\Documents\Programación\Prácticas_C#\CRUDJulianCarmonaEF\CRUDJulianCarmonaEF\obj\Debug\net8.0\CRUDJulianCarmonaEF.sourcelink.json

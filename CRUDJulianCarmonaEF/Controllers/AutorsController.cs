@@ -78,7 +78,7 @@ namespace CRUDJulianCarmonaEF.Controllers
         public async Task<IActionResult> Create([Bind("IdAutor,Nombre,Apellido,Nacionalidad")] Autor autor)
         {
 
-
+            
 
             if (ModelState.IsValid)
             {
