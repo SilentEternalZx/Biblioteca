@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1449878132-9781781100264.jpg",
+      "PackagePath": "staticwebassets\\icons\\1449878132-9781781100264.jpg"
+    },
+    {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1fa38ee20c17e41f514e450897048271.jpg",
       "PackagePath": "staticwebassets\\icons\\1fa38ee20c17e41f514e450897048271.jpg"
     },
@@ -23,6 +27,10 @@
     {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\agregar-usuario.png",
       "PackagePath": "staticwebassets\\icons\\agregar-usuario.png"
+    },
+    {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg",
+      "PackagePath": "staticwebassets\\icons\\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg"
     },
     {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\categories.png",
@@ -55,6 +63,14 @@
     {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\imprimir.png",
       "PackagePath": "staticwebassets\\icons\\imprimir.png"
+    },
+    {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\it-9781982127794_hr.jpg",
+      "PackagePath": "staticwebassets\\icons\\it-9781982127794_hr.jpg"
+    },
+    {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\large_99efb4a0449f950cda20ec5bddc93267.jpg",
+      "PackagePath": "staticwebassets\\icons\\large_99efb4a0449f950cda20ec5bddc93267.jpg"
     },
     {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\libro-magico.png",
@@ -93,8 +109,16 @@
       "PackagePath": "staticwebassets\\icons\\sobresalir.png"
     },
     {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\template-1.png",
+      "PackagePath": "staticwebassets\\icons\\template-1.png"
+    },
+    {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\text-books.png",
       "PackagePath": "staticwebassets\\icons\\text-books.png"
+    },
+    {
+      "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg",
+      "PackagePath": "staticwebassets\\icons\\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg"
     },
     {
       "Id": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\wallpapersden.com_i-love-coding-log_3840x2400.jpg",

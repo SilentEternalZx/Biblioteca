@@ -2,15 +2,7 @@
 @{
     ViewData["Title"] = "Index";
 }
-@* Mensaje de confirmación de acción
- *@
-@if (TempData["Mensaje"] != null)
-{
-    <div class="alert alert-success alert-dismissible fade show" role="alert">
-        @TempData["Mensaje"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-    </div>
-}
+
 
 @* Importación de estilo index
  *@
@@ -60,13 +52,13 @@
                             <td>@Html.DisplayFor(modelItem => item.NitEditorial)</td>
                             <td>
                                 <div class="action-buttons">
-                                    <a asp-action="Edit" class="btn btn-warning" asp-route-id="@item.Isbn">Editar</a> |
-                                    <a asp-action="Details" class="btn btn-primary" asp-route-id="@item.Isbn">Detalles</a> |
-                                    <a asp-action="Delete" class="btn btn-danger" asp-route-id="@item.Isbn">Eliminar</a>
+                                    <a asp-action="Edit" class="btn " asp-route-id="@item.Isbn">Editar</a> |
+                                    <a asp-action="Details" class="btn " asp-route-id="@item.Isbn">Detalles</a> |
+                                    <a asp-action="Delete" class="btn " asp-route-id="@item.Isbn">Eliminar</a>
 
                                 </div>
                             </td>
-                        </tr>
+                        </tr>   
                     }
                 </tbody>
             </table>

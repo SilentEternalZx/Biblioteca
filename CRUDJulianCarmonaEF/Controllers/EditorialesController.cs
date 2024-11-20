@@ -75,54 +75,56 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Nit,Nombres,Telefono,Direccion,Email,Sitioweb")] Editoriale editoriale)
+        public async Task<JsonResult> Create([FromForm] Editoriale editorial)
         {
-            if (ModelState.IsValid)
+            try
             {
-
-                try
+                if (ModelState.IsValid)
                 {
-                    //Mensaje de éxito
-                    _context.Add(editoriale);
-                    await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡La editorial se ha creado exitosamente!";
-                    TempData["TipoMensaje"] = "success";
-                    return RedirectToAction(nameof(Index));
-
-                }
-                catch (DbUpdateException ex)
-                {
-                    // Verificar si es un error de llave primaria duplicada
-                    if (ex.InnerException != null &&
-                        (ex.InnerException.Message.Contains("PRIMARY KEY") ||
-                         ex.InnerException.Message.Contains("UNIQUE KEY") ||
-                         ex.InnerException.Message.Contains("duplicate key")))
+                    if (ModelState.IsValid)
                     {
-                        //Mensaje de alerta en caso de ingresar un id ya existente
-                        ModelState.AddModelError("Nit",
-                            "Ya existe un editorial con este NIT. Por favor, ingrese un NIT diferente.");
-                        TempData["Mensaje"] = "Error: El NIT ingresado ya está registrado en el sistema.";
-                        TempData["TipoMensaje"] = "error";
-                    }
-                    else
-                    {
-                        //Mensaje de error
-                        ModelState.AddModelError(string.Empty,
-                            "Ha ocurrido un error al crear la editorial. Por favor, intente nuevamente.");
-                        TempData["Mensaje"] = "Error al crear la editorial.";
-                        TempData["TipoMensaje"] = "error";
+                        //verificar si ya existe el código
+                        if (EditorialeExists(editorial.Nit))
+                        {
+                            return Json(new { success = false, message = "El NIT ya existe" });
+                        }
+                        //verificar si el nombre ya existe
+                        if (_context.Editoriales.Any(c => c.Nombres == editorial.Nombres))
+                        {
+                            return Json(new { success = false, message = "Ya existe una categoría con ese nombre" });
+
+                        }
+                        if (_context.Editoriales.Any(c => c.Email == editorial.Email))
+                        {
+                            return Json(new { success = false, message = "Ese email ya está registrado" });
+                        }
+                        if (_context.Editoriales.Any(c => c.Direccion == editorial.Direccion))
+                        {
+                            return Json(new { success = false, message = "Esa dirección ya está registrada" });
+                        }
+                        if (_context.Editoriales.Any(c => c.Direccion == editorial.Direccion))
+                        {
+                            return Json(new { success = false, message = "Ese teléfono ya está registrado" });
+                        }
+
+                        _context.Add(editorial);
+                        await _context.SaveChangesAsync();
+                        return Json(new { success = true, message = "Editorial creada exitosamente" });
                     }
                 }
-                catch (Exception ex)
-                {
-                    //Mensaje de error
-                    ModelState.AddModelError(string.Empty,
-                        "Ha ocurrido un error inesperado. Por favor, intente nuevamente.");
-                    TempData["Mensaje"] = "Error inesperado al crear la editorial.";
-                    TempData["TipoMensaje"] = "error";
-                }
+
             }
-            return View(editoriale);
+            catch (Exception ex)
+            {
+                return Json(new { success = false, message = "Error al crear la editorial: " + ex.Message });
+            }
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Editoriales/Edit/5
@@ -146,37 +148,55 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Nit,Nombres,Telefono,Direccion,Email,Sitioweb")] Editoriale editoriale)
+        public async Task<JsonResult> Edit(int id, [FromForm] Editoriale editorial)
         {
-            if (id != editoriale.Nit)
+            if (id != editorial.Nit)
             {
-                return NotFound();
+                return Json(new { success = false, message = "ID no coincide" });
             }
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    //Mensaje de éxito
-                    _context.Update(editoriale);
-                    await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡La editorial se ha actualizado exitosamente!";
+
+                    if (ModelState.IsValid)
+                    {
+                        if (_context.Editoriales.Any(c => c.Nombres == editorial.Nombres))
+                        {
+                            return Json(new { success = false, message = "Ya existe una categoría con ese nombre" });
+                        }
+                        _context.Update(editorial);
+                        await _context.SaveChangesAsync();
+                        return Json(new { success = true, message = "Categoría actualizada exitosamente" });
+
+                    }
+
+
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!EditorialeExists(editoriale.Nit))
+                    if (!EditorialeExists(editorial.Nit))
                     {
-                        //Retornar error
-                        return NotFound();
+                        return Json(new { success = false, message = "Editorial no encontrada" });
                     }
                     else
                     {
-                        throw;
+                        return Json(new { success = false, message = "Error de concurrencia" });
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Error al actualizar: " + ex.Message });
+                }
             }
-            return View(editoriale);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Editoriales/Delete/5

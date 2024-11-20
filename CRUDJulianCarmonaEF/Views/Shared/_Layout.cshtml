@@ -86,12 +86,20 @@
  *@
     <style>
 
+        .nav-item{
+            color:black;
+            font-weight:bold;
+        }
+
         .hover-effect {
             position: relative;
             display: inline-block;
             padding-bottom: 2px;
         }
-
+        .navbar-brand{
+            color:black;
+            font-weight:bold;
+        }
             .hover-effect:before {
                 content: "";
                 position: absolute;
@@ -100,13 +108,19 @@
                 bottom: 0;
                 left: 50%;
                 transform: translateX(-50%);
-                background-color: #007bff;
+                background-color: #E7473C;
                 transition: width 0.3s ease-in-out;
             }
 
             .hover-effect:hover:before {
                 width: 100%;
             }
+
+            .container{
+                color:black;
+            }
+
+            
     </style>
    
   
@@ -124,6 +138,11 @@
             &copy; Biblioteca Saturno. Todos los derechos reservados - <a asp-area="" asp-controller="Home" asp-action="Privacy">Política de privacidad</a>
         </div>
     </footer>
+
+    @* SweetAlert *@
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>

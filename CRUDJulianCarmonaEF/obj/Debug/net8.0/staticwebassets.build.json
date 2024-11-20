@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "glPnX3SNmF8qnNKPngYozGQgi/lYIajiaRZL208xF9E=",
+  "Hash": "kWp+OnucwiVKLA+FKTxQtKjEeg5yhGMzemfdUEvFDig=",
   "Source": "CRUDJulianCarmonaEF",
   "BasePath": "_content/CRUDJulianCarmonaEF",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1449878132-9781781100264.jpg",
+      "SourceId": "CRUDJulianCarmonaEF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\",
+      "BasePath": "_content/CRUDJulianCarmonaEF",
+      "RelativePath": "icons/1449878132-9781781100264#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "talj0y3ixt",
+      "Integrity": "lWo6FUM5V1Nq3d2TAj78PwwC1s7y1i/9q/wCwNVTYcA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\1449878132-9781781100264.jpg"
+    },
+    {
       "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1fa38ee20c17e41f514e450897048271.jpg",
       "SourceId": "CRUDJulianCarmonaEF",
       "SourceType": "Discovered",
@@ -141,6 +162,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\agregar-usuario.png"
+    },
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg",
+      "SourceId": "CRUDJulianCarmonaEF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\",
+      "BasePath": "_content/CRUDJulianCarmonaEF",
+      "RelativePath": "icons/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "x5m592doll",
+      "Integrity": "iz/dUc3J0Yz7tvKzuhmXuIt0kul9kt5FuaH/He2lcg0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg"
     },
     {
       "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\categories.png",
@@ -309,6 +351,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\imprimir.png"
+    },
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\it-9781982127794_hr.jpg",
+      "SourceId": "CRUDJulianCarmonaEF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\",
+      "BasePath": "_content/CRUDJulianCarmonaEF",
+      "RelativePath": "icons/it-9781982127794_hr#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "vb3dghqk9j",
+      "Integrity": "G+axG/MEieUH5eHfYUO/1jjtMPdynRrJZzCH9QKpQ1o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\it-9781982127794_hr.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\large_99efb4a0449f950cda20ec5bddc93267.jpg",
+      "SourceId": "CRUDJulianCarmonaEF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\",
+      "BasePath": "_content/CRUDJulianCarmonaEF",
+      "RelativePath": "icons/large_99efb4a0449f950cda20ec5bddc93267#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ewh45c7q59",
+      "Integrity": "nvi3l4B8YQl3XehRffdUK3JFpcTnP72d4GWh5L928EE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\large_99efb4a0449f950cda20ec5bddc93267.jpg"
     },
     {
       "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\libro-magico.png",
@@ -521,6 +605,27 @@
       "OriginalItemSpec": "wwwroot\\icons\\sobresalir.png"
     },
     {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\template-1.png",
+      "SourceId": "CRUDJulianCarmonaEF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\",
+      "BasePath": "_content/CRUDJulianCarmonaEF",
+      "RelativePath": "icons/template-1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ul7jeiehn3",
+      "Integrity": "vtzzaiTtJ4GdUqa4dXIt0nuslvVhNSo0LvyOgiKyiHo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\template-1.png"
+    },
+    {
       "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\text-books.png",
       "SourceId": "CRUDJulianCarmonaEF",
       "SourceType": "Discovered",
@@ -540,6 +645,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\icons\\text-books.png"
+    },
+    {
+      "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg",
+      "SourceId": "CRUDJulianCarmonaEF",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\",
+      "BasePath": "_content/CRUDJulianCarmonaEF",
+      "RelativePath": "icons/tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xjdoetaez8",
+      "Integrity": "YyNCPn7/CXGUMQA8/T87HXL3RNgfrL5tvcc9UIIQXz8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg"
     },
     {
       "Identity": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\wallpapersden.com_i-love-coding-log_3840x2400.jpg",
@@ -2111,6 +2237,88 @@
       ]
     },
     {
+      "Route": "icons/1449878132-9781781100264.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1449878132-9781781100264.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "259782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWo6FUM5V1Nq3d2TAj78PwwC1s7y1i/9q/wCwNVTYcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-lWo6FUM5V1Nq3d2TAj78PwwC1s7y1i/9q/wCwNVTYcA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/1449878132-9781781100264.talj0y3ixt.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1449878132-9781781100264.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "259782"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"lWo6FUM5V1Nq3d2TAj78PwwC1s7y1i/9q/wCwNVTYcA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:11:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "talj0y3ixt"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/1449878132-9781781100264.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-lWo6FUM5V1Nq3d2TAj78PwwC1s7y1i/9q/wCwNVTYcA="
+        }
+      ]
+    },
+    {
       "Route": "icons/1fa38ee20c17e41f514e450897048271.35v4w833uc.jpg",
       "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\1fa38ee20c17e41f514e450897048271.jpg",
       "Selectors": [],
@@ -2271,6 +2479,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-++wNSiU3trHXfmKNc9h4RZuT8y/kaAFNwW6iovGsmPY="
+        }
+      ]
+    },
+    {
+      "Route": "icons/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iz/dUc3J0Yz7tvKzuhmXuIt0kul9kt5FuaH/He2lcg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iz/dUc3J0Yz7tvKzuhmXuIt0kul9kt5FuaH/He2lcg0="
+        }
+      ]
+    },
+    {
+      "Route": "icons/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.x5m592doll.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "460348"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iz/dUc3J0Yz7tvKzuhmXuIt0kul9kt5FuaH/He2lcg0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:09:29 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "x5m592doll"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iz/dUc3J0Yz7tvKzuhmXuIt0kul9kt5FuaH/He2lcg0="
         }
       ]
     },
@@ -2927,6 +3217,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-+8G3fC8RNb+jOrlnjTI+Qcf2EAzGsPgRoQymOxBCrJ8="
+        }
+      ]
+    },
+    {
+      "Route": "icons/it-9781982127794_hr.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\it-9781982127794_hr.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+axG/MEieUH5eHfYUO/1jjtMPdynRrJZzCH9QKpQ1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:08:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+axG/MEieUH5eHfYUO/1jjtMPdynRrJZzCH9QKpQ1o="
+        }
+      ]
+    },
+    {
+      "Route": "icons/it-9781982127794_hr.vb3dghqk9j.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\it-9781982127794_hr.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "139912"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G+axG/MEieUH5eHfYUO/1jjtMPdynRrJZzCH9QKpQ1o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:08:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "vb3dghqk9j"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/it-9781982127794_hr.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G+axG/MEieUH5eHfYUO/1jjtMPdynRrJZzCH9QKpQ1o="
+        }
+      ]
+    },
+    {
+      "Route": "icons/large_99efb4a0449f950cda20ec5bddc93267.ewh45c7q59.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\large_99efb4a0449f950cda20ec5bddc93267.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nvi3l4B8YQl3XehRffdUK3JFpcTnP72d4GWh5L928EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:09:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ewh45c7q59"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/large_99efb4a0449f950cda20ec5bddc93267.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nvi3l4B8YQl3XehRffdUK3JFpcTnP72d4GWh5L928EE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/large_99efb4a0449f950cda20ec5bddc93267.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\large_99efb4a0449f950cda20ec5bddc93267.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "60789"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nvi3l4B8YQl3XehRffdUK3JFpcTnP72d4GWh5L928EE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:09:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nvi3l4B8YQl3XehRffdUK3JFpcTnP72d4GWh5L928EE="
         }
       ]
     },
@@ -3751,6 +4205,88 @@
       ]
     },
     {
+      "Route": "icons/template-1.png",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\template-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "653623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vtzzaiTtJ4GdUqa4dXIt0nuslvVhNSo0LvyOgiKyiHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:09:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vtzzaiTtJ4GdUqa4dXIt0nuslvVhNSo0LvyOgiKyiHo="
+        }
+      ]
+    },
+    {
+      "Route": "icons/template-1.ul7jeiehn3.png",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\template-1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "653623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vtzzaiTtJ4GdUqa4dXIt0nuslvVhNSo0LvyOgiKyiHo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:09:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ul7jeiehn3"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/template-1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vtzzaiTtJ4GdUqa4dXIt0nuslvVhNSo0LvyOgiKyiHo="
+        }
+      ]
+    },
+    {
       "Route": "icons/text-books.png",
       "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\text-books.png",
       "Selectors": [],
@@ -3829,6 +4365,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-6uBOteAYcZZ1KvcmdD6ZGpk/gZUcwoM6kiiK8xPXVIg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyNCPn7/CXGUMQA8/T87HXL3RNgfrL5tvcc9UIIQXz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:10:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YyNCPn7/CXGUMQA8/T87HXL3RNgfrL5tvcc9UIIQXz8="
+        }
+      ]
+    },
+    {
+      "Route": "icons/tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.xjdoetaez8.jpg",
+      "AssetFile": "C:\\Users\\julia\\OneDrive\\Documents\\Programación\\Prácticas_C#\\CRUDJulianCarmonaEF\\CRUDJulianCarmonaEF\\wwwroot\\icons\\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "288335"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YyNCPn7/CXGUMQA8/T87HXL3RNgfrL5tvcc9UIIQXz8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 19 Nov 2024 20:10:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xjdoetaez8"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YyNCPn7/CXGUMQA8/T87HXL3RNgfrL5tvcc9UIIQXz8="
         }
       ]
     },

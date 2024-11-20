@@ -1,7 +1,9 @@
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\icons\1449878132-9781781100264.jpg
 wwwroot\icons\1fa38ee20c17e41f514e450897048271.jpg
 wwwroot\icons\agregar-usuario.png
+wwwroot\icons\canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg
 wwwroot\icons\categories.png
 wwwroot\icons\copia-de-datos.png
 wwwroot\icons\cover.jpg
@@ -10,6 +12,8 @@ wwwroot\icons\editar-informacion.png
 wwwroot\icons\editorial-design.png
 wwwroot\icons\hand-gesture-minimal-art-4k-8v-1680x1050.jpg
 wwwroot\icons\imprimir.png
+wwwroot\icons\it-9781982127794_hr.jpg
+wwwroot\icons\large_99efb4a0449f950cda20ec5bddc93267.jpg
 wwwroot\icons\libro-magico.png
 wwwroot\icons\lupa.png
 wwwroot\icons\lupa2.png
@@ -20,7 +24,9 @@ wwwroot\icons\rainbow-vortex.svg
 wwwroot\icons\selectivo.png
 wwwroot\icons\SL-043021-42650-20.jpg
 wwwroot\icons\sobresalir.png
+wwwroot\icons\template-1.png
 wwwroot\icons\text-books.png
+wwwroot\icons\tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg
 wwwroot\icons\wallpapersden.com_i-love-coding-log_3840x2400.jpg
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css

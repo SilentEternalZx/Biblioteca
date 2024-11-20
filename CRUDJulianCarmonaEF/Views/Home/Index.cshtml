@@ -2,134 +2,92 @@
     ViewData["Title"] = "Inicio";
 }
 
-
-@* Estilo css de la vista principal *@
-
 <style>
+    
     body {
-        background-image: url('@Url.Content("~/icons/wallpapersden.com_i-love-coding-log_3840x2400.jpg")');
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
+        background-color: #E7473C;
         font-family: "Red Hat Text", sans-serif;
         font-optical-sizing: auto;
         font-weight: 400;
         font-style: italic;
     }
 
-        body::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
-            z-index: 1;
-        }
+    .library-container {
+        text-align: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 20px;
+    }
 
-    .container-fluid {
+    .main-title {
+        color: #F0F0F0;
+        font-size: 2.5rem;
+        margin-bottom: 30px;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+        font-weight: bold;
+    }
+
+    .section-title {
+        color: black;
+        font-size: 1.8rem;
+        margin-bottom: 40px;
+        font-style:unset;
+    }
+
+    .books-row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .book-card {
         position: relative;
-        z-index: 2;
-    }
-
-    .title-text {
-        color: white !important;
-        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-    }
-
-    .card {
-        backdrop-filter: blur(10px);
-        background-color: rgba(255, 255, 255, 0.95);
-        border-radius: 15px;
+        width: 200px;
+        height: 300px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 6px 12px rgba(0,0,0,0.2);
         transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
-        .card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important;
+        .book-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3);
         }
 
-    .card-text {
-        color: #2c3e50 !important;
-        line-height: 1.6;
-    }
-
-    .text-muted {
-        color: #576574 !important;
-    }
-
-    .card-body {
-        padding: 3rem !important;
-    }
-
-    .text-primary {
-        color: #3498db !important;
-    }
-
-    .fas.fa-books {
-        font-size: 3.5rem;
-        margin-bottom: 1.5rem;
-        color: darkviolet;
-    }
-
-    hr {
-        border-color: rgba(0, 0, 0, 0.1);
-        margin: 2rem 0;
-    }
-
-    .lead {
-        font-size: 1.4rem;
-        margin-bottom: 2rem;
-    }
-
-    .display-4 {
-        font-size: 3.2rem;
-        margin-bottom: 1rem;
-    }
-
-    .small {
-        font-size: 0.9rem;
-        opacity: 0.9;
-    }
-
-    /* Efecto de brillo para iconos */
-    .fas {
-        transition: color 0.3s ease;
-    }
-
-        .fas:hover {
-            color: #2980b9 !important;
+        .book-card img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
         }
 </style>
 
+<div class="library-container">
+    <h1 class="main-title">Sistema Virtual de Bibliotecas</h1>
 
-@* HTML de vista principal
- *@
-
-<div class="container-fluid px-4 py-5">
-    <div class="text-center mb-5">
-        <h1 class="display-4 fw-bold title-text mb-4">Bienvenido al Panel de Administración</h1>
-        <p class="lead title-text">Sistema de Gestión de Biblioteca</p>
+    <div class="section-title">
+        <h2>¡Nuestros libros más leídos!</h2>
     </div>
-    <div class="row justify-content-center">
-        <div class="col-lg-8">
-            <div class="card border-0 shadow-lg">
-                <div class="card-body p-5 text-center">
-                    <i class="fas fa-book-reader fa-4x text-primary mb-4"></i>
-                    <h2 class="h3 mb-4 card-text">Gestiona tu Biblioteca Digital</h2>
-                    <p class="card-text mb-4">
-                        Desde este panel podrás administrar todos los aspectos de tu biblioteca:
-                        libros, autores, categorías y más. Disfruta de una experiencia de gestión
-                        intuitiva y eficiente.
-                    </p>
-                    <hr class="my-4">
-                    <p class="small card-text">
-                        Utiliza el menú de navegación para acceder a las diferentes secciones del sistema.
-                        Todas las herramientas que necesitas están a solo un clic de distancia.
-                    </p>
-                </div>
-            </div>
+
+    <div class="books-row">
+        <div class="book-card">
+            <img src="~/icons/canva-brown-rusty-mystery-novel-book-cover-hG1QhA7BiBU.jpg" alt="Libro 1" />
+        </div>
+        <div class="book-card">
+            <img src="~/icons/it-9781982127794_hr.jpg" alt="Libro 2" />
+        </div>
+        <div class="book-card">
+            <img src="~/icons/tlp_hero_book-cover-adb8a02f82394b605711f8632a44488b.jpg" alt="Libro 3" />
+        </div>
+        <div class="book-card">
+            <img src="~/icons/large_99efb4a0449f950cda20ec5bddc93267.jpg" alt="Libro 4" />
+        </div>
+        <div class="book-card">
+            <img src="~/icons/template-1.png" alt="Libro 5" />
+        </div>
+        <div class="book-card">
+            <img src="~/icons/1449878132-9781781100264.jpg" alt="Libro 6" />
         </div>
     </div>
 </div>

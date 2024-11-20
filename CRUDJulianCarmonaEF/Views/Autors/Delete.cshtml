@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="text-center mt-4">
-                        <form asp-action="Delete" class="d-inline">
+                        <form id="autorForm" asp-action="Delete" class="d-inline">
                             <input type="hidden" asp-for="IdAutor" />
                             <button type="submit" class="btn btn-danger me-2">
                                 <i class="fas fa-trash-alt me-2"></i>Eliminar
@@ -99,4 +99,5 @@
         }
         });
     </script>
+   
 }

@@ -58,55 +58,28 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdLibrosAutor,IdAutor,Isbn")] LibrosAutor librosAutor)
+        public async Task<JsonResult> Create([FromForm] LibrosAutor librosautor)
         {
             if (ModelState.IsValid)
             {
-
                 try
                 {
-
-                    _context.Add(librosAutor);
+                    _context.Add(librosautor);
                     await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡El registro se ha creado exitosamente!";
-                    TempData["TipoMensaje"] = "success";
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (DbUpdateException ex)
-                {
-                    // Verificar si es un error de llave primaria duplicada
-                    if (ex.InnerException != null &&
-                        (ex.InnerException.Message.Contains("PRIMARY KEY") ||
-                         ex.InnerException.Message.Contains("UNIQUE KEY") ||
-                         ex.InnerException.Message.Contains("duplicate key")))
-                    {
-                        //Mensaje de alerta en caso de ingresar un id ya existente
-                        ModelState.AddModelError("IdLibrosAutor",
-                            "Ya existe un registro con este ID. Por favor, ingrese un ID diferente.");
-                        TempData["Mensaje"] = "Error: El ID ingresado ya está registrado en el sistema.";
-                        TempData["TipoMensaje"] = "error";
-                    }
-                    else
-                    {
-                        //Mensaje de error
-                        ModelState.AddModelError(string.Empty,
-                            "Ha ocurrido un error al crear el registro. Por favor, intente nuevamente.");
-                        TempData["Mensaje"] = "Error al crear el registro.";
-                        TempData["TipoMensaje"] = "error";
-                    }
+                    return Json(new { success = true, message = "Registro creado exitosamente" });
                 }
                 catch (Exception ex)
                 {
-                    //Mensaje de error
-                    ModelState.AddModelError(string.Empty,
-                        "Ha ocurrido un error inesperado. Por favor, intente nuevamente.");
-                    TempData["Mensaje"] = "Error inesperado al crear el registro.";
-                    TempData["TipoMensaje"] = "error";
+                    return Json(new { success = false, message = "Error al crear el registro: " + ex.Message });
                 }
             }
-            ViewData["IdAutor"] = new SelectList(_context.Autors, "IdAutor", "IdAutor", librosAutor.IdAutor);
-            ViewData["Isbn"] = new SelectList(_context.Libros, "Isbn", "Isbn", librosAutor.Isbn);
-            return View(librosAutor);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: LibrosAutors/Edit/5
@@ -132,41 +105,80 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdLibrosAutor,IdAutor,Isbn")] LibrosAutor librosAutor)
+        public async Task<JsonResult> Edit(int id, [FromForm] LibrosAutor librosAutor)
         {
-            if (id != librosAutor.IdLibrosAutor)
+            if (id != librosAutor.IdLibrosAutor) 
             {
-                return NotFound();
+                return Json(new { success = false, message = "ID no coincide" });
             }
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    //Mensaje de éxito
                     _context.Update(librosAutor);
                     await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡El registro se ha actualizado exitosamente!";
-                    return RedirectToAction(nameof(Index));
-
+                    return Json(new { success = true, message = "Registro actualizado exitosamente" });
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!LibrosAutorExists(librosAutor.IdLibrosAutor))
                     {
-                        //Retornar error
-                        return NotFound();
+                        return Json(new { success = false, message = "Registro no encontrado" });
                     }
                     else
                     {
-                        throw;
+                        return Json(new { success = false, message = "Error de concurrencia" });
                     }
                 }
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Error al actualizar: " + ex.Message });
+                }
             }
-            ViewData["IdAutor"] = new SelectList(_context.Autors, "IdAutor", "IdAutor", librosAutor.IdAutor);
-            ViewData["Isbn"] = new SelectList(_context.Libros, "Isbn", "Isbn", librosAutor.Isbn);
-            return View(librosAutor);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
+        //public async Task<IActionResult> Edit(int id, [Bind("IdLibrosAutor,IdAutor,Isbn")] LibrosAutor librosAutor)
+        //{
+        //    if (id != librosAutor.IdLibrosAutor)
+        //    {
+        //        return NotFound();
+        //    }
+
+        //    if (ModelState.IsValid)
+        //    {
+        //        try
+        //        {
+        //            //Mensaje de éxito
+        //            _context.Update(librosAutor);
+        //            await _context.SaveChangesAsync();
+        //            TempData["Mensaje"] = "¡El registro se ha actualizado exitosamente!";
+        //            return RedirectToAction(nameof(Index));
+
+        //        }
+        //        catch (DbUpdateConcurrencyException)
+        //        {
+        //            if (!LibrosAutorExists(librosAutor.IdLibrosAutor))
+        //            {
+        //                //Retornar error
+        //                return NotFound();
+        //            }
+        //            else
+        //            {
+        //                throw;
+        //            }
+        //        }
+        //    }
+        //    ViewData["IdAutor"] = new SelectList(_context.Autors, "IdAutor", "IdAutor", librosAutor.IdAutor);
+        //    ViewData["Isbn"] = new SelectList(_context.Libros, "Isbn", "Isbn", librosAutor.Isbn);
+        //    return View(librosAutor);
+        //}
 
         // GET: LibrosAutors/Delete/5
         public async Task<IActionResult> Delete(int? id)

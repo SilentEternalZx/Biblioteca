@@ -75,63 +75,28 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("IdAutor,Nombre,Apellido,Nacionalidad")] Autor autor)
+        public async Task<JsonResult> Create([FromForm] Autor autor)
         {
-
-            
-
             if (ModelState.IsValid)
             {
-
                 try
                 {
-
-                    //Mensaje de éxito
                     _context.Add(autor);
                     await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡El autor se ha creado exitosamente!";
-                    TempData["TipoMensaje"] = "success";
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (DbUpdateException ex)
-                {
-                    // Verificar si es un error de llave primaria duplicada
-                    if (ex.InnerException != null &&
-                        (ex.InnerException.Message.Contains("PRIMARY KEY") ||
-                         ex.InnerException.Message.Contains("UNIQUE KEY") ||
-                         ex.InnerException.Message.Contains("duplicate key")))
-                    {
-
-                        //Mensaje de alerta en caso de ingresar un id ya existente
-                        ModelState.AddModelError("IdAutor",
-                            "Ya existe un autor con este ID. Por favor, ingrese un ID diferente.");
-                        TempData["Mensaje"] = "Error: El ID ingresado ya está registrado en el sistema.";
-                        TempData["TipoMensaje"] = "error";
-                    }
-                    else
-                    {
-
-                        //Mensaje de error
-                        ModelState.AddModelError(string.Empty,
-                            "Ha ocurrido un error al crear el autor. Por favor, intente nuevamente.");
-                        TempData["Mensaje"] = "Error al crear el autor.";
-                        TempData["TipoMensaje"] = "error";
-                    }
+                    return Json(new { success = true, message = "Autor creado exitosamente" });
                 }
                 catch (Exception ex)
                 {
-
-                    //Mensaje de error
-                    ModelState.AddModelError(string.Empty,
-                        "Ha ocurrido un error inesperado. Por favor, intente nuevamente.");
-                    TempData["Mensaje"] = "Error inesperado al crear el autor.";
-                    TempData["TipoMensaje"] = "error";
+                    return Json(new { success = false, message = "Error al crear el autor: " + ex.Message });
                 }
-
-
             }
-            
-            return View(autor);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Autors/Edit/5
@@ -155,39 +120,44 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("IdAutor,Nombre,Apellido,Nacionalidad")] Autor autor)
+        public async Task<JsonResult> Edit(int id, [FromForm] Autor autor)
         {
             if (id != autor.IdAutor)
             {
-                return NotFound();
+                return Json(new { success = false, message = "ID no coincide" });
             }
 
             if (ModelState.IsValid)
             {
                 try
                 {
-
-                    //Mensaje de éxito
                     _context.Update(autor);
                     await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡El autor se ha actualizado exitosamente!";
+                    return Json(new { success = true, message = "Autor actualizado exitosamente" });
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!AutorExists(autor.IdAutor))
                     {
-
-                        //Retornar error
-                        return NotFound();
+                        return Json(new { success = false, message = "Autor no encontrado" });
                     }
                     else
                     {
-                        throw;
+                        return Json(new { success = false, message = "Error de concurrencia" });
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Error al actualizar: " + ex.Message });
+                }
             }
-            return View(autor);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Autors/Delete/5
@@ -213,28 +183,22 @@ namespace CRUDJulianCarmonaEF.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-
             try
             {
-
-
                 var autor = await _context.Autors.FindAsync(id);
                 if (autor != null)
                 {
-
-                    //Mensaje de éxito
                     _context.Autors.Remove(autor);
                     await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "Autor eliminado con éxito.";
-                    return RedirectToAction(nameof(Index));
+
+                    // Use TempData to pass success message
+                    return Json(new { success = true, message = "El autor se eliminó con éxito." });
                 }
                 return NotFound();
-
             }
             catch (DbUpdateException)
             {
-
-                //Mensaje de error
+                // Use TempData to pass error message
                 TempData["ErrorMessage"] = "No se puede eliminar este autor porque está siendo utilizado en otras tablas.";
                 return RedirectToAction("Delete", new { id = id });
             }

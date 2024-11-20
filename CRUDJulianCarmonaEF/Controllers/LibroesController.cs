@@ -58,7 +58,7 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Isbn,Titulo,Descripcion,NombreAutor,Publicacion,FechaRegistro,CodigoCategoria,NitEditorial")] Libro libro)
+        public async Task<JsonResult> Create([FromForm] Libro libro)
         {
             if (ModelState.IsValid)
             {
@@ -66,49 +66,20 @@ namespace CRUDJulianCarmonaEF.Controllers
                 {
                     _context.Add(libro);
                     await _context.SaveChangesAsync();
-
-                    // Mensaje de éxito
-                    TempData["Mensaje"] = "¡El libro se ha creado exitosamente!";
-                    TempData["TipoMensaje"] = "success";
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (DbUpdateException ex)
-                {
-                    // Verificar si es un error de llave primaria duplicada
-                    if (ex.InnerException != null &&
-                        (ex.InnerException.Message.Contains("PRIMARY KEY") ||
-                         ex.InnerException.Message.Contains("UNIQUE KEY") ||
-                         ex.InnerException.Message.Contains("duplicate key")))
-                    {
-                        //Mensaje de alerta en caso de ingresar un id ya existente
-                        ModelState.AddModelError("Isbn",
-                            "Ya existe un libro con este ISBN. Por favor, ingrese un ISBN diferente.");
-                        TempData["Mensaje"] = "Error: El ISBN ingresado ya está registrado en el sistema.";
-                        TempData["TipoMensaje"] = "error";
-                    }
-                    else
-                    {
-                        //Mensaje de error
-                        ModelState.AddModelError(string.Empty,
-                            "Ha ocurrido un error al crear el libro. Por favor, intente nuevamente.");
-                        TempData["Mensaje"] = "Error al crear el libro.";
-                        TempData["TipoMensaje"] = "error";
-                    }
+                    return Json(new { success = true, message = "Libro creado exitosamente" });
                 }
                 catch (Exception ex)
                 {
-                    //Mensaje de error
-                    ModelState.AddModelError(string.Empty,
-                        "Ha ocurrido un error inesperado. Por favor, intente nuevamente.");
-                    TempData["Mensaje"] = "Error inesperado al crear el libro.";
-                    TempData["TipoMensaje"] = "error";
+                    return Json(new { success = false, message = "Error al crear el libro: " + ex.Message });
                 }
             }
 
-            // Si llegamos aquí, algo falló - volver a mostrar el formulario
-            ViewData["CodigoCategoria"] = new SelectList(_context.Categorias, "CodigoCategoria", "CodigoCategoria", libro.CodigoCategoria);
-            ViewData["NitEditorial"] = new SelectList(_context.Editoriales, "Nit", "Nit", libro.NitEditorial);
-            return View(libro);
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Libroes/Edit/5
@@ -134,39 +105,44 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("Isbn,Titulo,Descripcion,NombreAutor,Publicacion,FechaRegistro,CodigoCategoria,NitEditorial")] Libro libro)
+        public async Task<JsonResult> Edit(string id, [FromForm] Libro libro)
         {
             if (id != libro.Isbn)
             {
-                return NotFound();
+                return Json(new { success = false, message = "ID no coincide" });
             }
 
             if (ModelState.IsValid)
             {
                 try
                 {
-                    //Mensaje de éxito
                     _context.Update(libro);
                     await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡El libro se ha actualizado exitosamente!";
+                    return Json(new { success = true, message = "Libro actualizado exitosamente" });
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!LibroExists(libro.Isbn))
                     {
-                        //Retornar error
-                        return NotFound();
+                        return Json(new { success = false, message = "Libro no encontrado" });
                     }
                     else
                     {
-                        throw;
+                        return Json(new { success = false, message = "Error de concurrencia" });
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Error al actualizar: " + ex.Message });
+                }
             }
-            ViewData["CodigoCategoria"] = new SelectList(_context.Categorias, "CodigoCategoria", "CodigoCategoria", libro.CodigoCategoria);
-            ViewData["NitEditorial"] = new SelectList(_context.Editoriales, "Nit", "Nit", libro.NitEditorial);
-            return View(libro);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Libroes/Delete/5

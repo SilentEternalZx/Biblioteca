@@ -75,54 +75,45 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CodigoCategoria,Nombre")] Categoria categoria)
+        public async Task<JsonResult> Create([FromForm] Categoria categoria)
         {
             if (ModelState.IsValid)
             {
-
                 try
                 {
-                    //Mensaje de éxito
-                    _context.Add(categoria);
-                    await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡La categoría se ha creado exitosamente!";
-                    TempData["TipoMensaje"] = "success";
-                    return RedirectToAction(nameof(Index));
+                    if (ModelState.IsValid)
+                    {
+                        //verificar si ya existe el código
+                        if (CategoriaExists(categoria.CodigoCategoria))
+                        {
+                            return Json(new { success = false, message = "El código de categoría ya existe" });
+                        }
+                        //verificar si el nombre ya existe
+                        if (_context.Categorias.Any(c => c.Nombre == categoria.Nombre))
+                        {
+                            return Json(new { success = false, message = "Ya existe una categoría con ese nombre" });
+                        }
 
-                }
-                catch (DbUpdateException ex)
-                {
-                    // Verificar si es un error de llave primaria duplicada
-                    if (ex.InnerException != null &&
-                        (ex.InnerException.Message.Contains("PRIMARY KEY") ||
-                         ex.InnerException.Message.Contains("UNIQUE KEY") ||
-                         ex.InnerException.Message.Contains("duplicate key")))
-                    {
-                        //Mensaje de alerta en caso de ingresar un id ya existente
-                        ModelState.AddModelError("CodigoCategoria",
-                            "Ya existe una categoría con este ID. Por favor, ingrese un ID diferente.");
-                        TempData["Mensaje"] = "Error: El ID ingresado ya está registrado en el sistema.";
-                        TempData["TipoMensaje"] = "error";
+                        _context.Add(categoria);
+                        await _context.SaveChangesAsync();
+                        return Json(new { success = true, message = "Categoría creada exitosamente" });
                     }
-                    else
-                    {
-                        //Mensaje de error
-                        ModelState.AddModelError(string.Empty,
-                            "Ha ocurrido un error al crear la categoría. Por favor, intente nuevamente.");
-                        TempData["Mensaje"] = "Error al crear la categoría.";
-                        TempData["TipoMensaje"] = "error";
-                    }
+
+
+
                 }
                 catch (Exception ex)
                 {
-                    //Mensaje de error
-                    ModelState.AddModelError(string.Empty,
-                        "Ha ocurrido un error inesperado. Por favor, intente nuevamente.");
-                    TempData["Mensaje"] = "Error inesperado al crear la categoría.";
-                    TempData["TipoMensaje"] = "error";
+                    return Json(new { success = false, message = "Error al crear la categoría: " + ex.Message });
                 }
             }
-            return View(categoria);
+            //error de validación
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Categorias/Edit/5
@@ -146,36 +137,55 @@ namespace CRUDJulianCarmonaEF.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("CodigoCategoria,Nombre")] Categoria categoria)
+        public async Task<JsonResult> Edit(int id, [FromForm] Categoria categoria)
         {
             if (id != categoria.CodigoCategoria)
             {
-                return NotFound();
+                return Json(new { success = false, message = "ID no coincide" });
             }
 
             if (ModelState.IsValid)
             {
                 try
-                {     //Mensaje de éxito
-                    _context.Update(categoria);
-                    await _context.SaveChangesAsync();
-                    TempData["Mensaje"] = "¡La categoría se ha actualizado exitosamente!";
+                {
+
+                    if (ModelState.IsValid)
+                    {
+                        if (_context.Categorias.Any(c => c.Nombre == categoria.Nombre))
+                        {
+                            return Json(new { success = false, message = "Ya existe una categoría con ese nombre" });
+                        }
+                        _context.Update(categoria);
+                        await _context.SaveChangesAsync();
+                        return Json(new { success = true, message = "Categoría actualizada exitosamente" });
+
+                    }
+
+
                 }
                 catch (DbUpdateConcurrencyException)
                 {
                     if (!CategoriaExists(categoria.CodigoCategoria))
                     {
-                        //Retornar error
-                        return NotFound();
+                        return Json(new { success = false, message = "Categoría no encontrada" });
                     }
                     else
                     {
-                        throw;
+                        return Json(new { success = false, message = "Error de concurrencia" });
                     }
                 }
-                return RedirectToAction(nameof(Index));
+                catch (Exception ex)
+                {
+                    return Json(new { success = false, message = "Error al actualizar: " + ex.Message });
+                }
             }
-            return View(categoria);
+
+            var errors = ModelState.Values
+                .SelectMany(v => v.Errors)
+                .Select(e => e.ErrorMessage)
+                .ToList();
+
+            return Json(new { success = false, message = "Datos inválidos", errors });
         }
 
         // GET: Categorias/Delete/5

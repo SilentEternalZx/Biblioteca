@@ -11,11 +11,11 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
+                <div class="card-header" style="background-color: white; color: white;">
                     <h1 class="card-title mb-0">Editar categoría</h1>
                 </div>
                 <div class="card-body">
-                    <form asp-action="Edit">
+                    <form id="categoriaForm" asp-action="Edit">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <input type="hidden" asp-for="CodigoCategoria" />
                         <div class="form-group">
@@ -26,8 +26,8 @@
                        
                         
                         <div class="form-group text-end">
-                            <button type="submit" class="btn btn-primary">Editar</button>
-                            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                            <button type="submit" class="btn ">Editar</button>
+                            <a asp-action="Index" class="btn ">Volver a la lista</a>
                         </div>
                     </form>
                 </div>
@@ -41,5 +41,52 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
     }
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function() {
+            $('#categoriaForm').on('submit', function(e) {
+                e.preventDefault();
+
+                var form = $(this);
+
+                // Validar el formulario antes de enviarlo
+                if (form.valid()) {
+                    $.ajax({
+                        type: 'POST',
+                        url: form.attr('action'),
+                        data: form.serialize(),
+                        success: function(response) {
+                            if (response.success) {
+                                Swal.fire({
+                                    title: 'Éxito',
+                                    text: response.message,
+                                    icon: 'success',
+                                    confirmButtonText: 'Aceptar'
+                                }).then((result) => {
+                                    // Redirigir al índice o limpiar el formulario
+                                    window.location.href = '@Url.Action("Index", "Categorias")';
+                                });
+                            } else {
+                                Swal.fire({
+                                    title: 'Error',
+                                    text: 'Error al editar la categoría.',
+                                    icon: 'error',
+                                    confirmButtonText: 'Aceptar'
+                                });
+                            }
+                        },
+                        error: function() {
+                            Swal.fire({
+                                title: 'Error',
+                                text: 'Ocurrió un error inesperado',
+                                icon: 'error',
+                                confirmButtonText: 'Aceptar'
+                            });
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 }
 

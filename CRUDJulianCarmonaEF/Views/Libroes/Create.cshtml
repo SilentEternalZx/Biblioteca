@@ -13,11 +13,11 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="card shadow-sm">
-                <div class="card-header bg-primary text-white">
+                <div class="card-header" style="background-color: white; color: white;">
                     <h1 class="card-title mb-0">Crear Libro</h1>
                 </div>
                 <div class="card-body">
-                    <form asp-action="Create">
+                    <form id= "libroForm" asp-action="Create" onsubmit="">
                         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
                         <div class="form-group">
                             <label asp-for="Isbn" class="form-label">ISBN</label>
@@ -59,8 +59,8 @@
                         </div>
 
                         <div class="form-group text-end">
-                            <button type="submit" class="btn btn-primary">Crear</button>
-                            <a asp-action="Index" class="btn btn-secondary">Volver a la lista</a>
+                            <button type="submit" class="btn ">Crear </button>
+                            <a asp-action="Index" class="btn ">Volver a la lista</a>
                         </div>
                     </form>
                 </div>
@@ -70,5 +70,53 @@
 </div>
 
 @section Scripts {
+   
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script>
+        $(document).ready(function() {
+            $('#libroForm').on('submit', function(e) {
+                e.preventDefault();
+
+                var form = $(this);
+
+                // Validar el formulario antes de enviarlo
+                if (form.valid()) {
+                    $.ajax({
+                        type: 'POST',
+                        url: form.attr('action'),
+                        data: form.serialize(),
+                        success: function(response) {
+                            if (response.success) {
+                                Swal.fire({
+                                    title: 'Éxito',
+                                    text: response.message,
+                                    icon: 'success',
+                                    confirmButtonText: 'Aceptar'
+                                }).then((result) => {
+                                    // Redirigir al índice o limpiar el formulario
+                                    window.location.href = '@Url.Action("Index", "Libroes")';
+                                });
+                            } else {
+                                Swal.fire({
+                                    title: 'Error',
+                                    text: 'Error al crear el libro, verifique que no exista la llave primaria o que hayan valores nulos previamente',
+                                    icon: 'error',
+                                    confirmButtonText: 'Aceptar'
+                                });
+                            }
+                        },
+                        error: function() {
+                            Swal.fire({
+                                title: 'Error',
+                                text: 'Ocurrió un error inesperado',
+                                icon: 'error',
+                                confirmButtonText: 'Aceptar'
+                            });
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 }
